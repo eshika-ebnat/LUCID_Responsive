@@ -1,0 +1,344 @@
+@media(min-width:1920px){
+	.phone {
+	    width: 25%;
+	    right: 15%;
+	}
+	.phone .phone-width{
+		width: 100%;
+	}
+	.content {
+	    text-align: left;
+	   margin-top: 20%;
+	}
+}
+
+
+
+
+
+@media((min-width:1201px) and (max-width:1440px)){
+	.phone {
+	    width: 37%;
+	    right: 9%;
+	}
+	.content {
+	    text-align: left;
+    	padding: 50px;
+	}
+	.btn-btn-download {
+	    display: inline-block;
+	    padding: 17px 40px;
+	   	margin: 10px 20px 10px 0px;
+	   	margin: 20px 10px 20px 0px;
+	}
+}
+
+
+
+
+
+@media((min-width:767px) and (max-width:1200px)){
+	.content {
+	    text-align: left;
+	    margin-top: 6%;
+    	padding-bottom: 50px;
+	}
+	.phone {
+		position: absolute;
+	    right: 6%;
+	    bottom: 0px;
+	    width: 36%;
+
+	}
+	.btn-btn-download {
+	    display: inline-block;
+	    padding: 17px 40px;
+	   	margin: 10px 20px 10px 0px;
+	   	margin: 20px 10px 20px 0px;
+	}
+	.feature-section .feature h3 {
+	    font-size: 24px;
+	}
+	.feature-section .feature p {
+	    padding: 5px;
+	}
+	.download-section{
+		padding: 20px;
+	}
+	.download-section .text-aling{
+    	margin-top: 35px;
+	}
+	.price-section .price-table p {
+	    padding: 4px 5px;
+	    font-size: 14px;
+	}
+	.price-section .price-table .price {
+	    padding: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+	.height {
+    	flex-direction: column-reverse;
+    	justify-content: center;
+    }
+
+	.phone-alignment{
+		text-align: center;
+	}
+	.phone {
+	    position: static;
+	    margin: 20px auto 20px auto;
+	    width: 30%;
+	}
+
+	
+    .content{
+    	text-align: center;
+	    padding-bottom: 50px;
+	}
+	.navbar-nav{
+		text-align: center;
+	}
+	.nav-item {
+	    display: inline;
+	    margin: 18px;
+	}
+	.nav-link {
+    	display: inline;
+	}
+	.feature-section .feature p {
+    	font-size: 17px;
+    	padding: 13px;
+	}
+	.device-section{
+		padding: 20px;
+	}
+	.device-section img{
+		width: 78%;
+	}
+	.customize-section{
+		padding: 20px;
+	}
+    .client-section .client-details {
+	    text-align: left;
+	    padding: 12px;
+	}
+	.client-section .client-details p{
+    	text-align: left;
+    	margin: 11px auto;
+	}
+	.btn-btn-download {
+
+	    font-size: 15px;
+	    font-weight: 700;
+	    padding: 10px 32px;
+	    margin: 10px 20px;
+	}
+	.download-section h3 {
+    	font-size: 26px;
+	}
+	.download-section .button {
+    	text-align: center;
+	}
+	.price-section .price-table {
+	    padding: 10px 10px;
+	    margin-bottom: 30px;
+	}
+	.form-box {
+	    background-color: #15141a;
+	    padding: 39px 52px;
+	    width: 76%;
+	    position: absolute;
+	}
+	.contact-section .align {
+    	justify-content: center;
+    	padding: 20px;
+	}
+	.contact-section .contact {
+    	padding: 32px 0px;
+    	text-align: center;
+	}
+}
+
+
+
+
+
+
+@media(max-width:576px){
+	
+	.device-section .image-aling{
+		text-align: center;
+    	margin: 0px auto 20px auto;
+	}
+	.customize-section .custome{
+		margin-top: 0px;
+	}
+	.download-section .text-aling{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.download-section .button{
+		text-align: center;
+
+	}
+	.contact-section {
+    	padding: 63px 0px 441px 0px;
+	}
+	.form-box {
+		padding: 20px 25px;
+    	width: 83%;
+	}
+}
+
+
+@media(max-width:426px){
+	.content h1{
+    	font-size: 35px;
+	}
+	.client-section .client-details {
+     text-align: center; 
+     padding: 0px; 
+	}
+	.client-section {
+    text-align: center;
+    padding: 45px;
+	}
+	.client-section .client-details .name-job {
+    text-align: center;
+	}
+}
+
+@media(max-width:376px){
+
+	.device-section {
+	    padding: 20px 10px;
+	}
+	.customize-section {
+	    padding: 20px 10px;
+	}
+	.feature-section {
+	    padding: 30px 15px;
+	}
+	.price-section {
+	    padding: 20px 10px;
+	    text-align: center;
+	}
+	.client-img {
+    	margin: 20px auto 10px auto;
+	}
+	.contact-section {
+    	padding: 18px 10px 194px 10px;
+	}
+	.contact-section .contact {
+    	padding: 10px 0;
+    	text-align: center;
+	}
+	.contact-section .contact p {
+    padding: 0px 15px;
+	}
+	.form-box form .submit {
+    padding: 4px 10px;
+    font-size: 15px;
+	}
+
+	.form-box .form-control {
+    	padding: 7px;
+    	border-radius: 2px;
+	}
+	.form-box form textarea {
+    	margin: 9px 0px;
+    	width: 100%;
+    	height: 41%;
+	}
+	.download-section .button {
+	    text-align: center;
+	}
+}
+
+
+
+
+@media(max-width:320px){
+	
+	}
+	.content p {
+	    font-size: 15px;
+	    margin: 30px 0px;
+	}
+	
+	.feature-section .icon-box {
+	    width: 64px;
+	    height: 64px;
+	    margin: 10px auto 10px auto;
+
+	}
+	.device-heading h1 {
+	    font-size: 30px;
+	    padding: 0;
+	}
+	h1{
+	    font-size: 30px;
+	}
+	
+	.device-section p {
+	    font-size: 16px;
+	}
+	
+	.customize-section p {
+    font-size: 16px;
+	}
+	.client-heading h4 {
+    font-size: 13px;
+	}
+	.client-heading h1 {
+    font-size: 30px;
+	}
+
+	.price-section .heading {
+    margin-bottom: 10px;
+}	
+	.heading h1 {
+    font-size: 30px;
+    padding: 5px;
+}
+	.price-section .price-table {
+    padding: 10px 0;
+}
+	.price-section .price-table .price {
+
+    padding: 10px;
+}
+	.price-section .price-table h3 {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+	.price-section .price-table .price h2 {
+    font-size: 50px;
+}
+	.price-section .price-table .price sup {
+	    font-size: 21px;
+
+	}
+	.price-section .price-table .price h5 {
+	    font-size: 15px;
+
+	}
+	.price-section .price-table p {
+	    padding: 10px 15px;
+	    font-size: 14px;
+	}
+
+
+
+
+}
